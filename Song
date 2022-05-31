@@ -1,0 +1,24 @@
+CREATE TABLE "Song" (
+	track_id SERIAL,
+	song_name VARCHAR (200) NOT NULL, 
+	artist VARCHAR (200),
+	album VARCHAR (200),
+	seconds INT NOT NULL,
+	CONSTRAINT "PK_Song" PRIMARY KEY (track_id)
+	);
+	
+	INSERT INTO "Song" (artist, song_name, album, seconds) VALUES ('Maluma', 'HP', '11:11', 184);
+	INSERT INTO "Song" (artist, song_name, album, seconds) VALUES ('Maluma', 'No se me quita', '11:11', 219);
+	INSERT INTO "Song" (artist, song_name, album, seconds) VALUES ('Maluma', '11 PM', '11:11', 176);
+	INSERT INTO "Song" (artist, song_name, album, seconds) VALUES ('Maluma', 'Agua de Jamaica', '#7DJ (7 Dias en Jamaica)', 182); 
+	INSERT INTO "Song" (artist, song_name, album, seconds) VALUES ('Maluma', 'La Burbuja', '#7DJ (7 Dias en Jamaica)', 228);
+	INSERT INTO "Song" (artist, song_name, album, seconds) VALUES ('Maluma', 'Love', '#7DJ (7 Dias en Jamaica)', 188);
+	INSERT INTO "Song" (artist, song_name, album, seconds) VALUES ('Maluma, Jennifer Lopez', 'Pa Ti', 'Marry me (soundtrack)', 230);
+	INSERT INTO "Song" (artist, song_name, album, seconds) VALUES ('Maluma, Jennifer Lopez', 'Marry me (ballad)', 'Marry me (soundtrack)', 213);
+	INSERT INTO "Song" (artist, song_name, album, seconds) VALUES ('Maluma','Segundo', 'Marry me (soundtrack)', 148);
+	INSERT INTO "Song" (artist, song_name, album, seconds) VALUES ('Jennifer Lopez', 'On my way', 'Marry me (soundtrack)', 192);
+	INSERT INTO "Song" (artist, song_name, album, seconds) VALUES ('Jennifer Lopez, Arkadi', 'Love of my life (remix)', 'Marry me (soundtrack)', 197);
+	INSERT INTO "Song" (artist, song_name, seconds) VALUES ('Farukko', 'Pepas', 287);
+	INSERT INTO "Song" (artist, song_name, album, seconds) VALUES ('Prince Royce', 'Darte un beso', 'Soy el mismo', 216);
+	INSERT INTO "Song" (artist, song_name, album, seconds) VALUES ('Pedro Capo, Sofia Reyes', 'Casualidad', 'Mal de amores', 213);
+	INSERT INTO "Song" (artist, song_name, album, seconds) VALUES ('Pedro Capo', 'Calma', 'Munay', 180);
